@@ -17,12 +17,12 @@ Package.describe({
 
 Package.onUse(function(api) {
 	api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']); // Meteor versions
-	
+
 	api.addFiles('src/datepicker/datepicker.js', where);
-	api.addFiles('src/dropdown/datepicker.js', where);
-	api.addFiles('src/modal/datepicker.js', where);
-	api.addFiles('src/popover/datepicker.js', where);
-	api.addFiles('src/timepicker/datepicker.js', where);
-	api.addFiles('src/tooltip/datepicker.js', where);
-	api.addFiles('src/typeahead/datepicker.js', where);
+	api.addFiles('src/dropdown/dropdown.js', where);
+	api.addFiles('src/modal/modal.js', where);
+	api.addFiles('src/popover/popover.js', where);
+	api.addFiles('src/timepicker/timepicker.js', where);
+	api.addFiles('src/tooltip/tooltip.js', where);
+	api.addFiles('src/typeahead/typeahead.js', where);
 });
